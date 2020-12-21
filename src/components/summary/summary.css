@@ -1,0 +1,81 @@
+.summaryContainer {
+  height: 80%;
+  width: 700px;
+  display: flex;
+}
+
+.summaryContainer__left {
+  height: 70%;
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 50px 20px 10px 30px;
+}
+
+.summary__tasa {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  color: white;
+}
+.summary__tasa > h4 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.summary__arrow {
+  margin-bottom: 30px;
+}
+
+.summary__percentage {
+  margin-bottom: 25px;
+  font-size: 12px;
+}
+
+.summary__subtitle {
+  color: gray;
+  width: 100%;
+  font-size: 13px;
+  display: flex;
+}
+
+.summaryContainer__right {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.containerBox {
+  height: 30px;
+  width: 300px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.containerBox .aprovedBox {
+  height: 100%;
+  background-color: #05c394;
+}
+
+.containerBox .fairBox {
+  height: 100%;
+  background-color: #f6b91a;
+}
+
+.containerBox .rejectedBox {
+  height: 100%;
+  background-color: #f05e6d;
+}
+
+.containerBox .pendingBox {
+  height: 100%;
+  background-color: #b627e9;
+}

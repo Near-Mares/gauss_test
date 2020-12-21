@@ -1,0 +1,114 @@
+.mainContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.mainContainer__up {
+  width: 100%;
+  height: 50%;
+}
+
+.mainContainer__up > p {
+  color: gray;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.mainContainer__up > hr {
+  color: gray;
+  font-size: 13px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.mainContainer__down {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(253, 253, 253);
+}
+
+/*RANKING ROW*/
+.mainContainer__downTitle {
+  height: 30px;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(99, 98, 98);
+}
+
+.rankingRow {
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  max-width: 800px;
+  margin: 5px;
+}
+
+.rankingRow__title {
+  max-width: 800px;
+  height: 30px;
+  background-color: rgb(189, 189, 189);
+  color: rgb(75, 75, 75);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px 10px 5px;
+  font-size: 12px;
+}
+
+.rankingRow__titleLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+.rankingRow__titleCenter {
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+.rankingRow__titleRight {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.rankingRow__numero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background-color: rgb(94, 150, 255);
+  color: white;
+  height: 100%;
+  width: 80px;
+  margin: 0 10px 0 0;
+}
+
+.rankingRow__seen {
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.rankingRow__nombre {
+  color: grey;
+  width: 50%;
+  padding-top: 10px;
+  font-size: 11px;
+}
+
+.rankingRow__tasa {
+  height: 65px;
+  width: 65px;
+  padding: 8px 20px 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

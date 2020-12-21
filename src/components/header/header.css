@@ -1,0 +1,32 @@
+.header {
+  height: 50px;
+  background-color: rgb(80, 80, 80);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerLeft {
+  width: 150px;
+  background-color: rgb(112, 112, 112);
+  padding-left: 10px;
+}
+
+.headerCenter {
+  width: 150px;
+  background-color: rgb(112, 112, 112);
+  padding-left: 10px;
+}
+
+.headerRight {
+  width: 150px;
+  background-color: rgb(112, 112, 112);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.headerRight > i {
+  font-size: 30px;
+}

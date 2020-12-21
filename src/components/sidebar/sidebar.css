@@ -1,0 +1,29 @@
+.sidebar {
+  padding: 10px;
+  color: rgb(126, 126, 126);
+}
+
+.sidebarLogo {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.sidebarLogo .sidebarLogo__img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.sidebarTitle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.sidebarTitle:hover {
+  cursor: pointer;
+  color: whitesmoke;
+}
