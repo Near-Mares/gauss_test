@@ -8,25 +8,55 @@
 
 .headerLeft {
   width: 150px;
-  background-color: rgb(112, 112, 112);
-  padding-left: 10px;
+  padding-left: 30px;
+}
+
+.headerLeft > label {
+  font-size: 11px;
+  font-weight: 600;
+  padding-left: 5px;
 }
 
 .headerCenter {
   width: 150px;
-  background-color: rgb(112, 112, 112);
   padding-left: 10px;
+}
+
+.headerCenter > label {
+  font-size: 11px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.headerCenter > form {
+  margin-top: 2px;
+  display: flex;
+  background-color: rgba(253, 253, 253, 0.2);
+}
+
+.headerCenter > form > input {
+  width: 50%;
+  height: 22px;
+  background-color: transparent;
+  border-style: none;
+}
+
+.headerCenter > form > input:hover {
+  cursor: pointer;
 }
 
 .headerRight {
   width: 150px;
-  background-color: rgb(112, 112, 112);
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 10px;
+  padding-right: 30px;
 }
 
 .headerRight > i {
-  font-size: 30px;
+  font-size: 25px;
+}
+
+.headerRight > i:hover {
+  cursor: pointer;
 }

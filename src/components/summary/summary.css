@@ -4,29 +4,41 @@
   display: flex;
 }
 
+.mainContainer__left {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  width: 12px;
+  height: calc(100% - 50px);
+  z-index: 999;
+}
+
 .summaryContainer__left {
   height: 70%;
   width: 250px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  padding: 50px 20px 10px 30px;
+  padding: 60px 20px 10px 60px;
 }
 
 .summary__tasa {
   width: 200px;
   height: 200px;
-  border-radius: 50px;
   color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
 }
 .summary__tasa > h4 {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   border-radius: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 35px;
+  margin-top: 20px;
 }
 
 .summary__arrow {
@@ -50,7 +62,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .containerBox {
